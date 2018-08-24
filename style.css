@@ -1,0 +1,14 @@
+.container{
+    display:flex;
+}
+.square{
+    flex-direction: row;
+    background: #999999;
+    transition:.15s;
+    min-height:50px;
+    min-width:50px;
+    border:#fff 1px solid;
+}
+.square:hover{
+    background: #ff0000;
+}
