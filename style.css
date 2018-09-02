@@ -1,12 +1,14 @@
 body{
     font-family:'Open Sans', Arial, Helvetica, sans-serif;
 }
-h1{
+h1{}
+.container{
+    width:512px;
+    margin:0 auto;
     text-align:center;
 }
-.container{
-    max-width:512px;
-    margin:0 auto;
+.btn-row{}
+#grid-container{
     display:flex;
     flex-flow: row wrap;
 }
