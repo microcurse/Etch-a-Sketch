@@ -7,7 +7,24 @@ h1{}
     margin:0 auto;
     text-align:center;
 }
-.btn-row{}
+.btn-row{
+    margin:8px;
+}
+button{
+    font-size:16px;
+    font-weight:bold;
+    color:#009688;
+    width:156px;
+    height:32px;
+    border:2px dashed #009688;
+    background-color:#fff;
+    cursor:pointer;
+    border-radius:2px;
+    transition:.25s;
+}
+button:hover{
+
+}
 #grid-container{
     display:flex;
     flex-flow: row wrap;
@@ -23,5 +40,5 @@ h1{}
     background: #efefef;
 }
 .darken{
-    background-color:#ff0000;
+    background-color:#597774;
 }
