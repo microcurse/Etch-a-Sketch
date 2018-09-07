@@ -36,7 +36,7 @@ button:hover{
     border:1px solid #bebebe;
 }
 .square{
-    flex:2 1 auto;
+    flex: 1 0 6.25%;
     background: #efefef;
 }
 .darken{
