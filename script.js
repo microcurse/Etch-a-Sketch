@@ -1,12 +1,11 @@
 // Dynamically create grid
-function createGrid() {
-    for (var i = 0; i < 256; i++) {
+function createGrid(num) {
+    for (var i = 0; i < num*num; i++) {
         const makeDiv = document.createElement('div');
         makeDiv.classList.add('square');
         document.getElementById('grid-container').appendChild(makeDiv);
     }
 }
-createGrid();
 
 // Find all squares and add red color when hovered
 Array.from(document.getElementsByClassName("square")).forEach(
@@ -25,4 +24,5 @@ function resize() {
     console.log(userInput);
 }
 
-let userInput = 0;
+let userInput = 10;
+createGrid(userInput);
