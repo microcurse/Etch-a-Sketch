@@ -3,7 +3,6 @@ body{
 }
 h1{}
 .container{
-    width:960px;
     margin:0 auto;
     padding:16px;
     text-align:center;
@@ -27,18 +26,10 @@ button:hover{
 
 }
 #grid-container{
-    display:flex;
-    flex-flow: row wrap;
+    display: inline-grid;
     margin:0 auto;
     width:720px;
     height:720px;
     background:rgb(255, 255, 255);
     border:1px solid #bebebe;
-}
-.square{
-    flex: 1 0 6.25%;
-    background: #efefef;
-}
-.darken{
-    background-color:#597774;
 }
