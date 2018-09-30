@@ -64,7 +64,7 @@ function setColorMode(e) {
 }
 
 function reset(e) {
-    squaresPerSide = prompt("What would you like to resize to?");
+    squaresPerSide = prompt("How many square per side do you want?");
     createGrid(squaresPerSide);
 }
 

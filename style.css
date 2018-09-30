@@ -4,7 +4,6 @@ body{
 h1{}
 .container{
     margin:0 auto;
-    padding:16px;
     text-align:center;
 }
 .btn-row{
@@ -13,17 +12,14 @@ h1{}
 button{
     font-size:16px;
     font-weight:bold;
-    color:#009688;
+    background-color:#009688;
     width:156px;
     height:32px;
-    border:2px dashed #009688;
-    background-color:#fff;
+    border:2px dashed #009886;
+    color:#fff;
     cursor:pointer;
     border-radius:2px;
     transition:.25s;
-}
-button:hover{
-
 }
 #grid-container{
     display: inline-grid;
@@ -32,4 +28,9 @@ button:hover{
     height:720px;
     background:rgb(255, 255, 255);
     border:1px solid #bebebe;
+}
+footer{
+    text-align:center;
+    margin:8px;
+    padding:8px;
 }
